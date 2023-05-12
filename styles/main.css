@@ -9,6 +9,11 @@ html {
 }
 
 body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: hsl(216, 12%, 8%);
+  color: #FFF;
   font-family: "Overpass", sans-serif;
   font-weight: 400;
   line-height: 1.5rem;
@@ -93,12 +98,4 @@ p {
   height: 2.625rem;
   background-color: hsl(213, 19%, 18%);
   border-radius: 50%;
-}
-
-.body {
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-  background-color: hsl(216, 12%, 8%);
-  color: #FFF;
 }/*# sourceMappingURL=main.css.map */
