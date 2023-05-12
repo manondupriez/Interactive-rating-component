@@ -1,0 +1,46 @@
+@media screen and (min-width: 700px) {
+    .rating-container {
+        width: toRem(412);
+        height: toRem(416);
+    }
+    .rating {
+        padding: toRem(32);
+        border-radius: toRem(30);
+        h1 {
+            margin-bottom: toRem(7) !important;
+            font-size: toRem(28);
+            line-height: toRem(35);
+        }
+        p {
+            font-size: toRem(15);
+            line-height: toRem(24);
+        }
+        &__star-icon {
+            margin-bottom: toRem(30);
+            &--oval {
+                width: toRem(48);
+                height: toRem(48);
+            }
+            &--icon {
+                width: toRem(16.75);
+                height: toRem(16);
+            }
+        }
+        &__items {
+            column-gap: toRem(21);
+            margin-bottom: toRem(32);
+        }
+        &__item {
+            &--oval {
+                width: toRem(51);
+                height: toRem(51);
+            }
+            font-size: toRem(16);
+            line-height: toRem(24);
+            letter-spacing: toRem(.2);
+        }
+        &__submit-button {
+            line-height: toRem(19);
+        }
+    }
+}

@@ -24,7 +24,7 @@ p {
 }
 
 .rating__submit-button {
-  width: 17.4375rem;
+  min-width: 100%;
   height: 2.8125rem;
   background-color: hsl(25, 97%, 53%);
   color: #FFF;
@@ -99,4 +99,51 @@ p {
   height: 2.625rem;
   background-color: hsl(213, 19%, 18%);
   border-radius: 50%;
+}
+
+@media screen and (min-width: 700px) {
+  .rating-container {
+    width: 25.75rem;
+    height: 26rem;
+  }
+  .rating {
+    padding: 2rem;
+    border-radius: 1.875rem;
+  }
+  .rating h1 {
+    margin-bottom: 0.4375rem !important;
+    font-size: 1.75rem;
+    line-height: 2.1875rem;
+  }
+  .rating p {
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+  }
+  .rating__star-icon {
+    margin-bottom: 1.875rem;
+  }
+  .rating__star-icon--oval {
+    width: 3rem;
+    height: 3rem;
+  }
+  .rating__star-icon--icon {
+    width: 1.046875rem;
+    height: 1rem;
+  }
+  .rating__items {
+    column-gap: 1.3125rem;
+    margin-bottom: 2rem;
+  }
+  .rating__item {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0125rem;
+  }
+  .rating__item--oval {
+    width: 3.1875rem;
+    height: 3.1875rem;
+  }
+  .rating__submit-button {
+    line-height: 1.1875rem;
+  }
 }/*# sourceMappingURL=main.css.map */
