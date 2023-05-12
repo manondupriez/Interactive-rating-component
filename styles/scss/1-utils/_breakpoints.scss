@@ -1,7 +1,6 @@
 @media screen and (min-width: 700px) {
     .rating-container {
         width: toRem(412);
-        height: toRem(416);
     }
     .rating {
         padding: toRem(32);
@@ -27,6 +26,8 @@
             }
         }
         &__items {
+            display: flex;
+            justify-content: space-between;
             column-gap: toRem(21);
             margin-bottom: toRem(32);
         }
@@ -40,7 +41,9 @@
             letter-spacing: toRem(.2);
         }
         &__submit-button {
+            width: toRem(341);
             line-height: toRem(19);
+            font-size: toRem(15);
         }
     }
 }
