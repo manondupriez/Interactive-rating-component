@@ -1,7 +1,6 @@
 .rating-container {
     width: toRem(327);
 }
-
 .rating {
     padding: toRem(24) toRem(24) toRem(32) toRem(24);
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
@@ -43,7 +42,6 @@
             background-color: $darkBlue;
             border-radius: 50%;
         }
-        
         color: $mediumGrey;
         font-weight: 700;
         font-size: toRem(14);

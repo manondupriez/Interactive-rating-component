@@ -3,11 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     min-height: 100vh;
     display: grid;
@@ -18,7 +16,6 @@ body {
     font-weight: 400;
     line-height: toRem(24);
 }
-
 p {
     font-size: toRem(15);
 }
