@@ -29,33 +29,50 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
     </head>
-    <body>
-
-        <div class="container-fluid">
-            <div class="row">
+    <body class="body">
+        <div class="container-fluid p-0">
+            <div class="rating-container row">
 
                 <!-- RATING-->
                 
                 <div class="rating">
-                    <img src="images/icon-star.svg" alt="Star icon">
-
-                    <h1>
+                    <div class="rating__star-icon">
+                        <div class="rating__star-icon--oval position-relative">
+                            <img src="images/icon-star.svg" alt="Star icon" class="rating__star-icon--icon position-absolute top-50 start-50 translate-middle">
+                        </div>
+                    </div>
+                    
+                    <h1 class="mb-0">
                         How did we do?
                     </h1>
 
-                    <p>
+                    <p class="mb-0">
                         Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
                     </p>
 
-                    <div>
-                        <span class="rating-1"></span>
-                        <span class="rating-2"></span>
-                        <span class="rating-3"></span>
-                        <span class="rating-4"></span>
-                        <span class="rating-5"></span>
+                    <div class="rating__items">
+                        <div class="rating__item--oval position-relative">
+                            <span class="rating__item rating__item--1 position-absolute top-50 start-50 translate-middle">1</span>
+                        </div>
+
+                        <div class="rating__item--oval position-relative">
+                            <span class="rating__item rating__item--2 position-absolute top-50 start-50 translate-middle">2</span>
+                        </div>
+
+                        <div class="rating__item--oval position-relative">
+                            <span class="rating__item rating__item--3 position-absolute top-50 start-50 translate-middle">3</span>
+                        </div>
+
+                        <div class="rating__item--oval position-relative">
+                            <span class="rating__item rating__item--4 position-absolute top-50 start-50 translate-middle">4</span>
+                        </div>
+
+                        <div class="rating__item--oval position-relative">
+                            <span class="rating__item rating__item--5 position-absolute top-50 start-50 translate-middle">5</span>
+                        </div>
                     </div>
 
-                    <button class="btn">
+                    <button class="rating__submit-button btn">
                         Submit
                     </button>
                 </div>
