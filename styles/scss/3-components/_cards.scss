@@ -1,21 +1,27 @@
 .rating-container {
     width: toRem(327);
 }
-.rating {
-    padding: toRem(24) toRem(24) toRem(32) toRem(24);
+.card-container {
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
     border-radius: toRem(15);
-    h1 {
-        margin-bottom: toRem(10) !important;
+    h1, h2 {
         font-weight: 700;
         font-size: toRem(24);
         line-height: toRem(30);
     }
     p {
         font-size: toRem(14);
-        margin-bottom: toRem(24) !important;
         color: $lightGrey;
         line-height: toRem(22);
+    }
+}
+.rating {
+    padding: toRem(24) toRem(24) toRem(32) toRem(24);
+    h1 {
+        margin-bottom: toRem(10) !important;
+    }
+    p {
+        margin-bottom: toRem(24) !important;
     }
     &__star-icon {
         margin-bottom: toRem(16);
@@ -50,5 +56,24 @@
         text-align: center;
         letter-spacing: toRem(.175);
         border-radius: 50%;
+    }
+}
+.thanks {
+    padding: toRem(34) toRem(24) toRem(37) toRem(24);
+    img {
+        margin-bottom: toRem(24) !important;
+    }
+    .user-rating {
+        margin-bottom: toRem(29) !important;
+        padding: toRem(5) toRem(12);
+        background-color: $darkBlue;
+        color: $orange;
+        border-radius: toRem(22.5);
+    }
+    h2 {
+        margin-bottom: toRem(10) !important;
+    }
+    p {
+        text-align: center;
     }
 }

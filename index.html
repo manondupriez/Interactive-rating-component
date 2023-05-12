@@ -29,7 +29,7 @@
 
                 <!-- RATING-->
                 
-                <div class="rating">
+                <div class="card-container rating d-none">
                     <div class="rating__star-icon">
                         <div class="rating__star-icon--oval position-relative">
                             <img src="images/icon-star.svg" alt="Star icon" class="rating__star-icon--icon position-absolute top-50 start-50 translate-middle">
@@ -76,18 +76,18 @@
 
                 <!-- THANKS -->
 
-                <div class="thanks d-none">
+                <div class="card-container thanks d-flex flex-column align-items-center">
                     <img src="images/illustration-thank-you.svg" alt="Thanks illustration">
 
-                    <p>
-                        You selected <span id="user-rating"></span> out of 5
+                    <p class="user-rating mb-0">
+                        You selected <span id="user-rating__value" class="user-rating__value">4</span> out of 5
                     </p>
 
                     <h2>
                         Thank you!
                     </h2>
 
-                    <p>
+                    <p class="mb-0">
                         We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
                     </p>
                 </div>
