@@ -1,0 +1,6 @@
+@function toRem($px) {
+    @if not $px {
+        @error 'Missing argument: `$px`.';
+    }
+    @return calc($px / 16) + rem;
+}
