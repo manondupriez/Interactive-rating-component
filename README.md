@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-with-bootstrap-mmVcwLG4x8)
 - Live Site URL: [Github page](https://manondupriez.github.io/Interactive-rating-component/)
 
 ## My process
