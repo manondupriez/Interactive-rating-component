@@ -43,13 +43,6 @@
         margin-bottom: toRem(24);
     }
     &__item {
-        &--oval {
-            cursor: pointer;
-            width: toRem(42);
-            height: toRem(42);
-            background-color: $darkBlue;
-            border-radius: 50%;
-        }
         color: $mediumGrey;
         font-weight: 700;
         font-size: toRem(14);
@@ -57,6 +50,23 @@
         text-align: center;
         letter-spacing: toRem(.175);
         border-radius: 50%;
+        &--oval {
+            cursor: pointer;
+            width: toRem(42);
+            height: toRem(42);
+            background-color: $darkBlue;
+            border-radius: 50%;
+            transition: .2s;
+            span {
+                transition: .2s;
+            }
+            &:hover {
+                background-color: $orange;
+                span {
+                    color: #FFF;
+                }
+            }
+        }
     }
     .before-selected {
         background-color: $mediumGrey;
