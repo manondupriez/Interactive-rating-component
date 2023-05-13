@@ -44,6 +44,7 @@
     }
     &__item {
         &--oval {
+            cursor: pointer;
             width: toRem(42);
             height: toRem(42);
             background-color: $darkBlue;
@@ -56,6 +57,18 @@
         text-align: center;
         letter-spacing: toRem(.175);
         border-radius: 50%;
+    }
+    .before-selected {
+        background-color: $mediumGrey;
+        span {
+            color: #FFF;
+        }
+    }
+    .selected {
+        background-color: $orange;
+        span {
+            color: #FFF;
+        }
     }
 }
 .thanks {

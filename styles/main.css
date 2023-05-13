@@ -103,10 +103,23 @@ p {
   border-radius: 50%;
 }
 .rating__item--oval {
+  cursor: pointer;
   width: 2.625rem;
   height: 2.625rem;
   background-color: hsl(213, 19%, 18%);
   border-radius: 50%;
+}
+.rating .before-selected {
+  background-color: hsl(216, 12%, 54%);
+}
+.rating .before-selected span {
+  color: #FFF;
+}
+.rating .selected {
+  background-color: hsl(25, 97%, 53%);
+}
+.rating .selected span {
+  color: #FFF;
 }
 
 .thanks {
