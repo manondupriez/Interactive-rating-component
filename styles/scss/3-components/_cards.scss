@@ -65,12 +65,14 @@
                 span {
                     color: #FFF;
                 }
+                /*
                 + div {
                     background-color: $mediumGrey;
                     span {
                         color: #FFF;
                     }
                 }
+                */
             }
         }
     }
@@ -87,7 +89,7 @@
         }
     }
     .error p {
-        color: red;
+        color: #CD0101;
     }
 }
 .thanks {

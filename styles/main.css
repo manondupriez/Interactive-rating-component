@@ -115,14 +115,16 @@ p {
 }
 .rating__item--oval:hover {
   background-color: hsl(25, 97%, 53%);
+  /*
+  + div {
+      background-color: $mediumGrey;
+      span {
+          color: #FFF;
+      }
+  }
+  */
 }
 .rating__item--oval:hover span {
-  color: #FFF;
-}
-.rating__item--oval:hover + div {
-  background-color: hsl(216, 12%, 54%);
-}
-.rating__item--oval:hover + div span {
   color: #FFF;
 }
 .rating .before-selected {
@@ -138,7 +140,7 @@ p {
   color: #FFF;
 }
 .rating .error p {
-  color: red;
+  color: #CD0101;
 }
 
 .thanks {

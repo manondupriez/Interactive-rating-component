@@ -11,13 +11,14 @@ const selectRating = () => {
         element.addEventListener('click', () => {
             ratingBar.forEach(item => {
                 item.classList.remove('selected');
+                item.classList.remove('before-selected')
             })
             element.classList.add('selected')
+            element.nextElementSibling.classList.add('before-selected')
         })
     })
 }
 selectRating()
-
 
 const submitRating = () => {
     document.getElementById('submit-button').addEventListener('click', () => {
