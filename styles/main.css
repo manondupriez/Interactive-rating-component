@@ -137,6 +137,9 @@ p {
 .rating .selected span {
   color: #FFF;
 }
+.rating .error p {
+  color: red;
+}
 
 .thanks {
   padding: 2.125rem 1.5rem 2.3125rem 1.5rem;

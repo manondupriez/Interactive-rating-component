@@ -86,6 +86,9 @@
             color: #FFF;
         }
     }
+    .error p {
+        color: red;
+    }
 }
 .thanks {
     padding: toRem(34) toRem(24) toRem(37) toRem(24);
