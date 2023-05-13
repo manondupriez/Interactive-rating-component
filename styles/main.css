@@ -115,14 +115,6 @@ p {
 }
 .rating__item--oval:hover {
   background-color: hsl(25, 97%, 53%);
-  /*
-  + div {
-      background-color: $mediumGrey;
-      span {
-          color: #FFF;
-      }
-  }
-  */
 }
 .rating__item--oval:hover span {
   color: #FFF;
