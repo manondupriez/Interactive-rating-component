@@ -1,5 +1,5 @@
 @media screen and (min-width: 700px) {
-    .rating-container {
+    .main-container {
         width: toRem(412);
     }
     .rating {
@@ -44,6 +44,28 @@
             width: toRem(341);
             line-height: toRem(19);
             font-size: toRem(15);
+        }
+    }
+    .thanks {
+        padding: toRem(45) toRem(40);
+        border-radius: toRem(30);
+        img {
+            margin-bottom: toRem(32) !important;
+        }
+        .user-rating {
+            margin-bottom: toRem(32) !important;
+        }
+        h2 {
+            font-size: toRem(28);
+            margin-bottom: toRem(15) !important;
+            line-height: toRem(35);
+        }
+        p {
+            font-size: toRem(15);
+            line-height: toRem(24);
+        }
+        &__caption {
+            width: toRem(340);
         }
     }
 }

@@ -1,4 +1,4 @@
-.rating-container {
+.main-container {
     width: toRem(327);
 }
 .card-container {
@@ -72,8 +72,11 @@
     }
     h2 {
         margin-bottom: toRem(10) !important;
+        line-height: toRem(30);
     }
     p {
+        font-size: toRem(14);
+        line-height: toRem(22);
         text-align: center;
     }
 }

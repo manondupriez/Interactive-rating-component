@@ -46,7 +46,7 @@ p {
   border: none;
 }
 
-.rating-container {
+.main-container {
   width: 20.4375rem;
 }
 
@@ -124,13 +124,16 @@ p {
 }
 .thanks h2 {
   margin-bottom: 0.625rem !important;
+  line-height: 1.875rem;
 }
 .thanks p {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
   text-align: center;
 }
 
 @media screen and (min-width: 700px) {
-  .rating-container {
+  .main-container {
     width: 25.75rem;
   }
   .rating {
@@ -176,5 +179,27 @@ p {
     width: 21.3125rem;
     line-height: 1.1875rem;
     font-size: 0.9375rem;
+  }
+  .thanks {
+    padding: 2.8125rem 2.5rem;
+    border-radius: 1.875rem;
+  }
+  .thanks img {
+    margin-bottom: 2rem !important;
+  }
+  .thanks .user-rating {
+    margin-bottom: 2rem !important;
+  }
+  .thanks h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.9375rem !important;
+    line-height: 2.1875rem;
+  }
+  .thanks p {
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+  }
+  .thanks__caption {
+    width: 21.25rem;
   }
 }/*# sourceMappingURL=main.css.map */
